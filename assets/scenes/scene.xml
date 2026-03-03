@@ -1,0 +1,21 @@
+<scene>
+  <node name="GeckoRoot"
+        model="assets/models/Gecko/Gecko.obj"
+        posX="0" posY="0" posZ="0"
+        rotX="0" rotY="0" rotZ="0"
+        scaleX="1" scaleY="1" scaleZ="1"
+        script="assets/scripts/rotate_y.lua">
+
+    <node name="GeckoChild"
+          model="assets/models/Gecko/Gecko.obj"
+          posX="2" posY="0" posZ="0"
+          rotX="0" rotY="90" rotZ="0"
+          scaleX="0.5" scaleY="0.5" scaleZ="0.5" />
+  </node>
+
+  <node name="BaseMesh"
+        model="assets/models/FinalBaseMesh.obj"
+        posX="-3" posY="0" posZ="0"
+        rotX="0" rotY="180" rotZ="0"
+        scaleX="0.1" scaleY="0.1" scaleZ="0.1" />
+</scene>
